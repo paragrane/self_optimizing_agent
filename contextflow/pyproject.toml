@@ -39,10 +39,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/contextflow/contextflow"
-Documentation = "https://contextflow.readthedocs.io"
-Repository = "https://github.com/contextflow/contextflow"
-Issues = "https://github.com/contextflow/contextflow/issues"
+Repository = "https://github.com/paragrane/self_optimizing_agent"
+Issues = "https://github.com/paragrane/self_optimizing_agent/issues"
 
 [project.scripts]
 contextflow = "contextflow.cli.main:main"

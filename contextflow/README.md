@@ -29,13 +29,14 @@ ContextFlow solves these by treating **agent context as a living artifact** that
 ## Installation
 
 ```bash
-pip install contextflow
-```
+# Clone the repository
+git clone https://github.com/paragrane/self_optimizing_agent.git
+cd self_optimizing_agent/contextflow
 
-For development:
-```bash
-git clone https://github.com/contextflow/contextflow.git
-cd contextflow
+# Install in development mode
+pip install -e .
+
+# Or install with dev dependencies
 pip install -e ".[dev]"
 ```
 
@@ -324,7 +325,7 @@ If you use ContextFlow in your research, please cite:
   title = {ContextFlow: Self-optimizing context for multi-agent systems},
   author = {ContextFlow Contributors},
   year = {2024},
-  url = {https://github.com/contextflow/contextflow}
+  url = {https://github.com/paragrane/self_optimizing_agent}
 }
 ```
 
@@ -336,4 +337,4 @@ Built with:
 
 ---
 
-**Questions?** Open an [issue](https://github.com/contextflow/contextflow/issues) or start a [discussion](https://github.com/contextflow/contextflow/discussions).
+**Questions?** Open an [issue](https://github.com/paragrane/self_optimizing_agent/issues).
